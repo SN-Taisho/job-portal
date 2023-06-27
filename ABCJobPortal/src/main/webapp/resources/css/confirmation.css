@@ -1,0 +1,49 @@
+main.conf {
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 31vh;
+}
+
+main img {
+	height: 450px;
+	width: 450px;
+}
+
+main h6 {
+	font-size: 18px;
+}
+
+main p {
+	font-size: 20px;
+	font-weight: bold;
+	color: #7f5af0 !important; 
+	margin: 5px 0px;
+}
+
+main span {
+	color: #2CB67D;
+}
+
+main.conf div {
+	margin: 20px 0px;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+main a {
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+main a:hover {
+	background-color: #7f5af080;
+  color: #fffffe;
+}
+
+@media only screen and (max-width: 576px) {
+	main img {
+	width: 325px;
+	height: 325px;
+	}
+}

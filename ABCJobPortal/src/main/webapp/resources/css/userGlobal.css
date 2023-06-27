@@ -1,0 +1,676 @@
+/* General Classes */
+.bold {
+	font-weight: bold;
+}
+
+#uNavbar {
+	background-color: #242629;
+	justify-content: space-between;
+	
+}
+#uNavbarLeft {
+	align-items: center;
+	padding: 5px 30px;
+}
+#logo {
+	width: 50px;
+	height: 50px;
+	 margin: 0px 15px 0px 0px;
+}
+
+#uNavbarRight {
+	align-items: center;
+	padding: 5px 30px;
+}
+#uNavbarRight {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+#uNavbarRight li {
+	display: flex;
+	align-items: center;
+	list-style: none;
+	margin: 0px 20px;
+	padding: 5px;
+	border: solid transparent;
+	transition: linear 0.3s;
+}
+#uNavbarRight li:hover {
+	border-bottom: #7f5af0 solid;
+}
+#uNavbarRight a {
+	text-decoration: none;
+	color: inherit;
+}
+.navbarIcons {
+	color: #7f5af0;
+	font-size: 30px;
+	margin-right: 5px;
+}
+#profileIcon {
+	color: #7f5af0;
+	font-size: 40px;
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+.generalIcons {
+	color: #7f5af0;
+	font-size: 30px;
+}
+
+.highlight1 {
+	color: #7f5af0;
+}
+.highlight2 {
+	color:#2cb67d;
+}
+/* Main Area */
+#userHomeArea {
+	justify-content: space-evenly;
+	margin: 30px;
+}
+
+/* User Pannel */
+aside {
+	background-color: #242629;
+	
+	min-width: 250px;
+	width: 300px;
+	height: 200px;
+	padding: 10px;
+	border-radius: 15px;
+	margin: 0px 10px;
+}
+#userInfoPannel {
+	align-items: center;
+}
+#userProfilePicture {
+	width: 75px;
+	height: 75px;
+	border-radius: 100%;
+}
+#nameContainer {
+	margin: 0px 15px;
+}
+#occupation {
+	margin-top: 10px;
+	font-size: 16px;
+}
+#occupation, #cityAndCountry {
+	font-weight: normal;
+}
+h6 {
+	font-size: 18px;
+}
+#miniProfile {
+	padding: 20px;
+}
+#miniProfile p {
+	font-size: 16px;
+	margin-top: 20px;
+}
+
+/* Post Viewing Area */
+main {
+	flex-direction: column;
+	
+	min-width: 400px;
+	max-width:  900px;
+	height: fit-content;
+	margin: 0px 10px;
+}
+#createPostSection {
+	background-color: #242629;
+	border-radius: 15px;
+	
+	max-width: 100%;
+	height: fit-content;
+	padding: 20px;
+}
+#postForm {
+	flex-direction: column;
+	align-items: center;
+}
+#postForm>* {
+	margin: 10px;
+}
+#postForm textarea {
+	background-color: transparent;
+	color: white;
+	width: 80%;
+	height: 40px;
+	text-align: center;
+	outline: none;
+	border-radius: 10px;
+	padding: 10px;
+	resize: none;
+	transition: ease-in-out 0.3s;
+}
+#postForm textareax:hover {
+	text-align: left;
+	border-color: #7f5af0 !important;
+}
+#postForm textarea:focus {
+	text-align: left;
+	border-color: #7f5af0 !important;
+}
+#postForm button {
+	background-color: #7f5af0;
+	border-radius: 10px;
+	border: transparent;
+	color: white;
+	width: 100px;
+	height: 30px;
+}
+
+#postMedia {
+	margin-top: 10px;
+}
+#postMedia>ul>li>.generalIcons {
+	margin-right: 5px;
+}
+#postMedia ul {
+	list-style: none;
+	justify-content: space-around;
+}
+#postMedia li {
+	display: flex;
+	align-items: center;
+}
+
+/* User Feed*/
+.samplePost {
+	background-color: #242629;
+	max-width: 100%;
+	padding: 20px;
+	margin: 30px 0px;
+	border-radius: 20px;
+}
+.posterName {
+	align-self: center;
+	margin-left: 10px;
+}
+.postDate {
+	color: #72757e;
+}
+.posterProfilePicture {
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+}
+.postImage {
+	width: 100%;
+	margin: 10px 0px;
+	border-radius: 15px;
+}
+
+/* Follow Suggestions */
+section {
+	background-color: #242629;
+	
+	width: fit-content;
+	height: fit-content;
+	padding: 10px;
+	border-radius: 15px;
+	margin: 0px 10px;
+}
+
+.suggestionCotainer  {
+	padding: 5px;
+}
+.suggestionCotainer img {
+	height: 50px;
+	width:  50px;
+	border-radius: 100%;
+}
+
+.suggestionName {
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 10px;
+}
+.followBtn {
+	background-color: transparent;
+	border: #2cb67d solid 2px;
+	border-radius: 20px;
+	width: 70px;
+	color: #2cb67d;
+	
+	margin: 5px 15px;
+}
+
+/* Search */
+#searchArea {
+	margin-bottom: 50vh;
+}
+#searchBar {
+	flex-direction: row-reverse;
+}
+#searchBar input {
+	width: 750px;
+	background-color: #242629;
+	border-color: transparent;
+	border-radius: 0px 10px 10px 0px;
+	outline: transparent;
+	text-indent: 10px;
+	padding: 10px;
+}
+#searchBar button {
+	width: 10%;
+	text-align: center;
+	background-color: #242629;
+	border-color: transparent;
+	border-radius: 10px 0px 0px 10px;
+	padding: 10p;
+}
+
+#searchResults{
+	flex-direction: column; 
+	align-items: center;
+	margin-top: 25px;
+}
+#searchResultItem {
+	width: 85%;
+	background-color: #242629;
+	margin: 5px;
+	padding: 30px;
+	border-radius: 5px;
+}
+#resultView {
+	background-color: transparent;
+	color:#7f5af0;
+	border:#7f5af0 solid;
+	border-radius: 10px;
+	padding: 5px;
+	margin-top: 10px;
+}
+
+/* Navbar Hamburger */
+#openNavBtn {
+		display: none;
+		cursor: pointer;
+	}
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed; 
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: rgba(22, 22, 26, 0.9); 
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%; 
+  width: 100%; 
+  text-align: center;
+  margin-top: 30px; 
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  font-weight: bold;
+  display: block; 
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #7f5af0;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  margin: 20px 0px;
+  font-size: 60px;
+}
+
+/* User Overlay */
+#userOverlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 0px 0px 0px 20px;
+  height: 0px;
+  width: 175px;
+  position: fixed; 
+  z-index: 1;
+  right: 0;
+  top: 60px;
+  background-color: rgba(36, 38, 41, 0.9); 
+  overflow-y: hidden;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+#userOverlay.opened{
+	height: 175px;
+}
+#userOverlay a {
+	text-decoration: none;
+	font-family: sans-serif;
+	border-radius: 20px;
+	padding: 10px;
+}
+a#viewProfileBtn {
+	border:#7f5af0 solid;
+	color:#7f5af0;
+}
+a#editProfileBtn {
+	border:#2cb67d solid;
+	color:#2cb67d;
+}
+a#logOutBtn {
+	border: #ff5b5b solid;
+	color: #ff5b5b;
+}
+
+
+
+/* Break Points */
+@media only screen and (max-width: 1190px) {
+	#logoText {
+		display: none;
+	}
+	#shortLogoText {
+		display: block !important;
+	}
+	
+	#followSuggestions {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 1295px) {
+	#openNavBtn {
+		display: block;
+	}
+	#uVavLinks {
+		display: none !important;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	#miniProfile {
+	display: none;
+	}
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+
+
+/* User Profile */
+#userTimeline {
+	flex-direction: column;
+	align-items: center;
+	min-width: 300px;
+	width: 900px;
+}
+#userProfileCard {
+	width: 85%;
+	padding: 25px;
+	background: rgb(36,38,41);
+	background: linear-gradient(0deg, rgba(36,38,41,1) 70%, rgba(114,117,126,1) 70%);
+	border-radius: 20px;
+	flex-direction: column;
+	align-items: flex-start;
+	position: relative;
+}
+#userProfileCard div.flex {
+	align-content: center;
+}
+#mainProfileContent div {
+	align-items: center;
+	margin-top: 80px;
+	margin-left: 10px;
+}
+
+#mainUserProfilePicture {
+	height: 125px;
+	width: 125px;
+	border-radius: 100%;
+}
+h6#cityAndCountry {
+	margin-top: 10px;
+}
+.profileLower {
+	padding: 10px;
+}
+
+button#editProfileBtn {
+	position: absolute;
+	bottom: 30px;
+	right: 20px;
+	
+	background-color: transparent;
+	border-radius: 10px;
+	border: #2cb67d solid 4px;
+	color: #2cb67d;
+	cursor: pointer;
+	padding: 10px;
+}
+
+.userProfile {
+	margin-bottom: 53vh !important;
+}
+
+/* Profile Experience List */
+.experienceItem {
+	border: solid green;
+	
+	margin: 30px 10px;
+	padding: 20px;
+	background-color: #242629;
+	flex-direction: column;
+	
+}
+i {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+/* Edit Profile */
+#editProfileBakcground {
+	justify-content: space-around;
+	align-items: center;
+	background-color: #242629;
+	border-radius: 20px;
+	width: 100%;
+}
+#userHomeArea.userEditProfile {
+	margin-bottom: 45vw;
+}
+#userEditProfileForm {
+	justify-content: space-evenly;
+	
+	width: 800;
+	flex-wrap: wrap;
+}
+#userEditProfileForm fieldset {
+	border: none;
+	flex-direction: column;
+	align-items: center;
+	margin: 30px 10px;
+}
+#userEditProfileForm input {
+	background-color: #16161a;
+	color: #fffffe;
+	border-radius: 5px;
+	border: transparent;
+	width: 200px;
+	padding: 10px;
+	margin: 5px 20px;
+	transition: linear 0.3s;
+}
+#userEditProfileForm input:focus {
+	outline:#7f5af0 solid 2px;
+}
+#editProfileBtns {
+	flex-direction: column;
+	align-items: center;
+	
+	width: 150px;
+}
+#editProfileBtns button {
+	background-color: transparent;
+	text-transform: capitalize;
+	border-radius: 10px;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	width: 80px;
+	padding: 10px;
+	margin: 20px;
+	
+}
+#editSaveBtn {
+	border:#2cb67d solid;
+	color:#2cb67d;
+}
+#editSaveBtn:hover {
+	background-color: rgb(44, 182, 125, 0.8);
+	color:#fffffe;
+}
+#editCancelBtn {
+	border: #ff5b5b solid;
+	color: #ff5b5b;
+}
+#editCancelBtn:hover {
+	background-color: rgb(255, 91, 91, 0.8);
+	color:#fffffe;
+}
+
+ /* The Modal */
+.modal {
+  display: none;
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%;
+  overflow: auto; 
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content/Box */
+.modal-content {
+	flex-direction: column;
+  background-color: #242629;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 5px;
+  width: 80%;
+}
+.modal-content input {
+	background-color: #16161a;
+	color: #fffffe;
+	border-radius: 5px;
+	border: transparent;
+	width: 200px;
+	padding: 10px;
+	margin: 5px 20px;
+	transition: linear 0.3s;
+}
+.modal-content input:focus {
+	outline:#7f5af0 solid 2px;
+}
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #ff5b5b;
+  text-decoration: none;
+  cursor: pointer;
+} 
+#expSaveBtn {
+	float: right;
+	padding: 10px;
+	background-color: transparent;
+	border-radius: 10px;
+	border: #2cb67d solid;
+	color: #2cb67d;
+	cursor: pointer;
+}
+/* Search */
+#searchBtn {
+	cursor: pointer;
+}
+
+
+/* Admin Dashboard */
+#dashboardArea {
+	flex-direction: column;
+	align-items: center;
+	margin-top: 20px;
+	margin-bottom: 55vw;
+}
+#userTable {
+	background-color: #242629;
+	justify-content: center;
+	border-radius: 20px;
+	margin-top: 10px;
+	width: 900px;
+}
+#userTable table {
+	padding: 20px;
+}
+#userTable tr.highlight1 {
+	text-transform: uppercase;
+}
+#userTable th {
+	border:#16161a solid;
+	border-radius: 5px;
+	padding: 10px;
+}
+.adminActionBtn {
+	background-color: transparent;
+	color: white;
+	border: white solid;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 5px;
+	cursor: pointer;
+}
+#delUserBtn {
+	background-color: transparent;
+	color: #ff5b5b;
+	border: #ff5b5b solid;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 5px;
+	cursor: pointer;
+	
+}

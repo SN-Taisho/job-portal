@@ -1,0 +1,147 @@
+main {
+	margin: 5vh 0px 5vw 0px;
+
+	justify-content: space-around
+}
+.left-side {
+	align-items: center;
+}
+.right-side {
+	align-items: center;
+}
+
+.right-side section {
+	justify-content: center;
+	background-color: #242629;
+	border-radius: 20px;
+	padding: 30px 60px;
+}
+
+.right-side>section h3 {
+	font-size: 35px;
+	text-align: center;
+}
+#errorText {
+	height: 30px;
+	display: block;
+	text-align: center;
+	font-size: 18px;
+	color: #ff5b5b;
+	margin: 10px auto;
+}
+
+.form-group {
+	background-color: transparent;
+	border: transparent;
+	margin: 20px 5px;
+}
+
+.form-group label {
+	margin: 0px 5px;
+	color: #767676;
+}
+
+.form-group input {
+	height: 30px;
+	width: 350px;
+	background-color: #16161a;
+	border-color: transparent;
+	border-radius: 5px;
+	text-indent: 10px;
+	transition: 0.5s;
+
+}
+.form-group > input:focus {
+	outline: 2px solid #7f5af0;
+	
+}
+fieldset.flex {
+	flex-direction: column;
+	align-items: center;
+}
+#accVerif {
+	margin-top: 20px;
+	width: 100px !important;
+	text-indent: 0px !important;
+	text-align: center;
+}
+
+#signUpBtn {
+	margin-top: 10px;
+  	margin-left: 5px;
+  	transition: 0.3s;
+}
+#logInBtn {
+	margin-top: 10px;
+	margin-left: 5px;
+	transition: 0.3s;
+}
+#verifyBtn {
+	background-color: transparent;
+	border-radius: 10px;
+	transition: 0.3s;
+}
+#signUpBtn:hover {
+  	background-color: #7f5af080;
+ 	 cursor: pointer;
+}
+#logInBtn:hover {
+	background-color: #7f5af080;
+  	color: #fffffe;
+}
+#verifyBtn:hover {
+	background-color: #7f5af080;
+	color: #fffffe;
+ 	 cursor: pointer;
+}
+#submit {
+	align-items: center;
+	justify-content: space-between;
+}
+#submitVerif {
+	justify-content: center;
+}
+#submit a {
+	color: #7f5af0;
+	text-decoration: none;
+	font-weight: bold;
+	transition: linear 0.3s;
+}
+#submit a:hover {
+	color: white !important;
+}
+
+/* Break points  */
+@media only screen and (max-width: 1200px) {
+
+	.left-side img {
+    max-width: 400px;
+    max-height: 400px;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+	
+	.left-side {
+		display: none; 
+	}
+	main {
+		margin-bottom: 45vw;
+	}
+}
+
+@media only screen and (max-width: 510px) {
+	
+	.left-side section {
+	padding: 30px 30px;
+	}
+	.right-side input {
+	width: 300px;
+	}
+	#submit {
+	flex-direction: column; 
+	}
+	#signUpBtn {
+	margin: 20px 0px;
+	}
+}
