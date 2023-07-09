@@ -15,12 +15,15 @@ ABC Job Portal is a job-hunting similiar to Linkedin, users of the website are a
 - MySQL
 - HTML CSS JS
 
+
 ## Key Features
 - Registration (w/ Validation and Error Handling)
 - Login (w/ Error Handling)
 - Forgot Password
 - Search Feature
 - Edit user profile
+
+  
 ## Screenshots
 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
