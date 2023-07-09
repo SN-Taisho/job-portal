@@ -22,6 +22,7 @@ ABC Job Portal is a job-hunting similiar to Linkedin, users of the website are a
 - Forgot Password
 - Search Feature
 - Edit user profile
+- Admin CRUD functionality
 
   
 ## Screenshots
