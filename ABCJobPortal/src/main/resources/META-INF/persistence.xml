@@ -7,9 +7,9 @@
 
     <persistence-unit name="pDB">
         <properties>
-            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/wdf-database" />
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/abc-job-portal" />
             <property name="javax.persistence.jdbc.user" value="root"/>
-            <property name="javax.persistence.jdbc.password" value="S02N06Taisho19"/>
+            <property name="javax.persistence.jdbc.password" value="samplePassword"/>
             <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
             <property name="hibernate.show_sql" value="true"/>
             <property name="hibernate.format_sql" value="true"/>
