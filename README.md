@@ -29,7 +29,6 @@ Registration Page
 ![Registration page](https://onedrive.live.com/embed?resid=43B58B5427DFA58A%214620&authkey=%21ABX3nUDSRHtJ7l0&width=1338&height=748)
 
 Registration form handling with live validation
-![Registration form handling](https://onedrive.live.com/embed?resid=43B58B5427DFA58A%214622&authkey=%21AHjlSHLuOd8G0H0&width=539&height=645)
 ![Registration form live validation](https://onedrive.live.com/embed?resid=43B58B5427DFA58A%214623&authkey=%21AKAZ39EUDBDE7MU&width=530&height=557)
 
 Registration Confirmation page
